@@ -1,0 +1,5 @@
+adcLibrary\BaseClass.class
+stepDefinitions\Hooks.class
+cucumberOptions\TestRunner.class
+stepDefinitions\stepDefinition.class
+adcLibrary\PropertiesReader.class

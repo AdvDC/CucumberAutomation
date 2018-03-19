@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 272886,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSanityTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Pet Insurance Dog - Page 1",
+        "description": "",
+        "id": "insurance-application-single---quote;pet-insurance-dog---page-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38692425048,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The User is on Pet Insurance Home Page",
+            "match": {
+              "location": "stepDefinition.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 374340953,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the following",
+            "match": {
+              "location": "stepDefinition.enterFollowingDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Dog",
+                  "FirstDog",
+                  "89109"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271691599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User submits the page",
+            "match": {
+              "location": "stepDefinition.submitPage1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10498128132,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Pet Insurance Page 2 is loaded and Quote is displayed",
+            "match": {
+              "location": "stepDefinition.verifyPage2Quote()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sanityTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 115312,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeSmokeTest()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Pet Insurance Cat - Page 1",
+        "description": "",
+        "id": "insurance-application-single---quote;pet-insurance-cat---page-1",
+        "after": [
+          {
+            "result": {
+              "duration": 232436,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterSmokeTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20124637837,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The User is on Pet Insurance Home Page",
+            "match": {
+              "location": "stepDefinition.login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 502807651,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters the following",
+            "match": {
+              "location": "stepDefinition.enterFollowingDetails(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Cat",
+                  "FirstCat",
+                  "90701"
+                ],
+                "line": 15
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 265505169,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User submits the page",
+            "match": {
+              "location": "stepDefinition.submitPage1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10386556844,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Pet Insurance Page 2 is loaded and Quote is displayed",
+            "match": {
+              "location": "stepDefinition.verifyPage2Quote()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Insurance Application Single - Quote",
+    "description": "",
+    "id": "insurance-application-single---quote",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
