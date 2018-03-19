@@ -8,17 +8,17 @@ public class Hooks extends BaseClass {
 	
 	@Before("@smokeTest")
 	public void beforeSmokeTest() {
-		System.out.println("Smoke Test HOOKS - Modified Version from Dev Branch");
+		System.out.println("Smoke Test HOOKS - Modified Version Merge from Dev Branch");
 	}
 	
 	@After("@smokeTest")
 	public void afterSmokeTest() {
-		System.out.println("Closing Smoke Test HOOKS - Modified Version Dev Branch");
+		System.out.println("Closing Smoke Test HOOKS - Modified Version Merge from Dev Branch");
 //		this.close();
 	}
 	
 	@Before("@sanityTest")
 	public void beforeSanityTest() {
-		System.out.println("Sanity HOOKS - Modified Version Dev Branch");
+		System.out.println("Sanity HOOKS - Modified Version Merge from Dev Branch");
 	}
 }
