@@ -8,17 +8,17 @@ public class Hooks extends BaseClass {
 	
 	@Before("@smokeTest")
 	public void beforeSmokeTest() {
-		System.out.println("Smoke Test HOOKS - Browser Type is FireFox");
+		System.out.println("Smoke Test HOOKS - Modified Version");
 	}
 	
 	@After("@smokeTest")
 	public void afterSmokeTest() {
-		System.out.println("Closing Smoke Test HOOKS - Browser Type is FireFox");
+		System.out.println("Closing Smoke Test HOOKS - Modified Version");
 //		this.close();
 	}
 	
 	@Before("@sanityTest")
 	public void beforeSanityTest() {
-		System.out.println("Sanity HOOKS - Browser Type is FireFox");
+		System.out.println("Sanity HOOKS - Modified Version");
 	}
 }
